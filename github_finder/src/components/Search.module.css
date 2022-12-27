@@ -1,0 +1,33 @@
+.seach {
+  background-color: #2B3566;
+  padding: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.seach p {
+  color: #9DA5D1;
+}
+
+.seach_container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.seach_container input,
+.seach_container button {
+  padding: 0.6rem;
+  border-radius: 3px;
+  border: none;
+  color: #2B3566;
+}
+
+.seach_container button {
+  background-color: #0E1129;
+  cursor: pointer;
+}
